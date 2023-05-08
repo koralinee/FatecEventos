@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="eventos, fatec, divulgar, gerenciar">
+        <meta name="description" content="sistema de divulgação e gerenciamento de eventos das Fatecs">
+        <meta name="author" content="Bianca, Gabriel, Giovanna, Karoline, Mateus">
+        
+        <title>Fatec Eventos - Gerenciar</title>
+        <link rel="shortcut icon" href="../imagens/icon-nav-fatec.ico" type="image/x-icon">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/style.css">
+
+    </head>
+
+    <body>
+
+        <header id="topo">
+            
+            <!--Barra acessibilidade-->
+
+            <div id="acessibilidade" class="container">
+
+                <ul id="atalhos-internos">
+                    <li><a href="#conteudo" accesskey="1" title="Ir para conteúdo da página">Ir para o conteúdo [1]</a></li>
+                    <li><a href="#menu" accesskey="2" title="Ir para o menu de navegação">Ir para o menu [2]</a></li>
+                    <li><a href="#rodape" accesskey="3" title="Ir para o rodapé da página">Ir para o rodapé [3]</a></li>
+                </ul>
+
+                <ul id="botoes-acessibilidade">
+                    <li><a href="../views/acessibilidade-admin.html">ACESSIBILIDADE</a></li>
+                    <li class="contraste"><a href="javascript:void(0);" class="contrasteA">CONTRASTE</a></li>
+                    <li class="contraste"><a href="javascript:void(0);" class="semcontraste">SEM CONTRASTE</a></li>
+                    <li class="fonte"><a href="javascript:void(0);" class="aumentar">A +</a></li>
+                    <li class="fonte"><a href="javascript:void(0);" class="diminuir">A -</a></li>
+                </ul>              
+
+            </div> 
+
+            <!--Cabeçalho-->
+
+            <nav id="menu" class="container">
+
+                <a href="../views/home-admin.html"><img id="logo" src="../imagens/logo.png" alt="Logo Fatec Eventos na cor branco"></a> 
+                
+                <div id="grupo-2">
+                    <!-- Este grupo será separado no lado extremo direito -->
+                    <div id="logos-cps">
+                        <a href="https://www.cps.sp.gov.br/"><img id="brasao" src="../imagens/brasao.png" alt="Logo Centro Paula Souza e Brasão Governo Estado de São Paulo na cor branco"></a> 
+                    </div>
+                    
+                    <div id="botoes-conta">
+                        <a id="btn_acessar" href="../../index.html">Sair</a>
+                        <a id="btn_cadastro" href="../views/gerenciar.html">Administrador</a>
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <div id="barra"></div>
+
+        </header>
+
+        <main id="conteudo" class="secao-gerenciamento container">
+            
+            <h1 id="titulo-gerenciar-eventos">Ferramenta de controle de eventos</h1>
+
+            <div id="busca-eventos-gerenciar">
+                <img id="icon-lupa" src="../imagens/icon-pesquisa-branco.png" alt="Icone de lupa para pesquisar">
+                <input type="text" placeholder="Digite o evento desejado">
+            </div>
+
+            <div id="gerenciar-filtrar-pesquisa">
+
+                <select name="ordenacao" id="combobox-ordenacao">
+
+                    <option value="" selected disabled>Ordenar por</option>
+                    <option value="proxima">Datas próximas</option>
+                    <option value="distante">Datas distantes</option>
+                    <option value="alfabetica">Ordem alfabética</option>
+                    <option value="proxima">RA</option>
+    
+                </select>
+
+                <div>
+                    <input type="checkbox" name="eventos-passados" id="checkbox-eventos-passados">
+                    <label for = "checkbox-eventos-passados">Exibir eventos passados</label>
+                </div>
+
+            </div>
+
+            <section id="tabela-gerenciamento">
+                
+                <table>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome do aluno</th>
+                            <th>RA</th>
+                            <th>Email</th>
+                            <th>Nome do evento</th>
+                            <th>Data do evento</th>
+                        </tr>
+                        <tr>
+                            <td data-title="Código">1</td>
+                            <td data-title="Nome do aluno">Gustavo Lopes</td>
+                            <td data-title="RA">1115468495784</td>
+                            <td data-title="Email">gustavo.lopes11@fatec.sp.gov.br</td>
+                            <td data-title="Nome do evento">Sala São Paulo</td>
+                            <td data-title="Data do evento">23/06/2022</td>
+                        </tr>
+                        <tr>
+                            <td data-title="Código">2</td>
+                            <td data-title="Nome do aluno">Ernesto Gomes</td>
+                            <td data-title="RA">1548777954624</td>
+                            <td data-title="Email">ernesto.gomes203@fatec.sp.gov.br</td>
+                            <td data-title="Nome do evento">Sala São Paulo</td>
+                            <td data-title="Data do evento">23/06/2022</td>
+                        </tr>
+                        <tr>
+                            <td data-title="Código">3</td>
+                            <td data-title="Nome do aluno">Gabriel dos Santos</td>
+                            <td data-title="RA">1648779432051</td>
+                            <td data-title="Email">gabriel.santos18@fatec.sp.gov.br</td>
+                            <td data-title="Nome do evento">Sala São Paulo</td>
+                            <td data-title="Data do evento">23/06/2022</td>
+                        </tr>
+                        <tr>
+                            <td data-title="Código">4</td>
+                            <td data-title="Nome do aluno">André Luiz</td>
+                            <td data-title="RA">4215486326021</td>
+                            <td data-title="Email">andre.luiz112@fatec.sp.gov.br</td>
+                            <td data-title="Nome do evento">Sala São Paulo</td>
+                            <td data-title="Data do evento">23/06/2022</td>
+                        </tr>
+                        <tr>
+                            <td data-title="Código">5</td>
+                            <td data-title="Nome do aluno">Pessina Albuquerque</td>
+                            <td data-title="RA">0231569948776</td>
+                            <td data-title="Email">pessina.albuquerque01@fatec.sp.gov.br</td>
+                            <td data-title="Nome do evento">Sala São Paulo</td>
+                            <td data-title="Data do evento">23/06/2022</td>
+                        </tr>
+                        <tr>
+                            <td data-title="Código">6</td>
+                            <td data-title="Nome do aluno">Ademar Santos</td>
+                            <td data-title="RA">0261516545222</td>
+                            <td data-title="Email">ademar.santos98@fatec.sp.gov.br</td>
+                            <td data-title="Nome do evento">Sala São Paulo</td>
+                            <td data-title="Data do evento">23/06/2022</td>
+                        </tr>
+                </table>
+
+            </section>
+            
+
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+                </div>
+                <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+
+        </main>
+
+        <footer id="rodape">
+
+            <div class="grupo-rodape">
+                <h3 class="titulo-grupo-rodape">Acessibilidade</h3>
+
+                <ul>
+                    <li><a href="#conteudo" accesskey="1" title="Ir para conteúdo da página">Ir para o conteúdo [1]</a></li>
+                    <li><a href="#menu" accesskey="2" title="Ir para o menu de navegação">Ir para o menu [2]</a></li>
+                    <li><a href="#rodape" accesskey="3" title="Ir para o rodapé da página">Ir para o rodapé [3]</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href="../views/acessibilidade-admin.html">Acessibilidade</a></li>
+                </ul>
+
+                <ul>
+                    <li class="contraste"><a href="javascript:void(0);" class="contrasteA">Contraste</a></li>
+                    <li class="contraste"><a href="javascript:void(0);" class="semcontraste">Sem contraste</a></li>
+                </ul>
+
+                <ul>
+                    <li class="fonte"><a href="javascript:void(0);" class="aumentar">A +</a></li>
+                    <li class="fonte"><a href="javascript:void(0);" class="diminuir">A -</a></li>
+                </ul>
+
+            </div>
+
+            <div class="grupo-rodape">
+                <h3 class="titulo-grupo-rodape">Redes sociais</h3>
+
+                <div id="logos-redes-sociais">
+                    <a href="https://www.facebook.com/centropaulasouza"><img src="../imagens/facebook-icon.png" alt="icone de acesso ao facebook"></a>
+                    <a href="https://www.instagram.com/centropaulasouza/"><img src="../imagens/instagram-icon.png" alt="icone de acesso ao instagram"></a>
+                    <a href="https://twitter.com/paulasouzasp"><img src="../imagens/twitter-icon.png" alt="icone de acesso ao twitter"></a>
+                    <a href="https://www.youtube.com/c/centropaulasouzaspoficial"><img src="../imagens/youtube-icon.png" alt="icone de acesso ao youtube"></a>
+                    <a href="https://www.linkedin.com/company/centropaulasouza/"><img src="../imagens/linkedin-icon.png" alt="icone de acesso ao linkedin"></a>
+                </div>
+
+                <p>Este site não coleta cookies.</p>
+            </div>
+
+            <div class="grupo-rodape">
+                <h3 class="titulo-grupo-rodape">Entre em contato</h3>
+
+                <div id="informacoes-extras">
+                    <a href="https://www.cps.sp.gov.br/fatecs/">Informações sobre todas as unidades de Fatecs.</a>
+                    <p>Fatec Eventos</p>
+                    <p>Todos os direitos reservados.</p>
+                    <p>Copyright &copy; 2022</p>
+                </div>
+                
+            </div>
+
+        </footer>
+
+    </body>
+
+    <!-- Js para acessibilidade -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/fonte.js"></script>
+    <script src="../js/contraste-views.js"></script>
+    
+</html>
