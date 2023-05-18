@@ -16,4 +16,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Acesse o projeto online
 
-- https://mateussantanasilva.github.io/FatecEventos/
+- https://giovannapfs.github.io/FatecEventos.github.io/
