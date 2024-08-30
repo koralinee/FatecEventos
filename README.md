@@ -2,7 +2,8 @@
 
 ## 👥 Projeto Interdisciplinar
 Projeto realizado no 1° semestre do curso de Desenvolvimento de Software Multiplataforma da Fatec Zona Leste, em colaboração com os colegas:
-- [Bianca Santos](https://github.com/Biancasantoss); 
+- [Bianca Santos](https://github.com/Biancasantoss);
+- [Giovanna Passos](https://github.com/giovannapfs);
 - [Gabriel Oliveira](https://github.com/Bieldeid); 
 - [Karoline de Souza](https://github.com/koralinee);
 - [Mateus Santana](https://github.com/mateussantanasilva).
